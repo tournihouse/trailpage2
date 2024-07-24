@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Points Table</title>
+    <style>
+      body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.table-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background: #007BFF;
+    color: #fff;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+@media (max-width: 600px) {
+    th, td {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="table-container">
+        <h1>Points Table</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Team Name</th>
+                    <th>Wins</th>
+                    <th>Losses</th>
+                    <th>Points</th>
+                    <th>Round Difference</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Team 1</td>
+                    <td>10</td>
+                    <td>2</td>
+                    <td>30</td>
+                    <td>+20</td>
+                </tr>
+                <tr>
+                    <td>Team 2</td>
+                    <td>8</td>
+                    <td>4</td>
+                    <td>24</td>
+                    <td>+10</td>
+                </tr>
+                <tr>
+                    <td>Team 3</td>
+                    <td>7</td>
+                    <td>5</td>
+                    <td>21</td>
+                    <td>+5</td>
+                </tr>
+                <tr>
+                    <td>Team 4</td>
+                    <td>6</td>
+                    <td>6</td>
+                    <td>18</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Team 5</td>
+                    <td>5</td>
+                    <td>7</td>
+                    <td>15</td>
+                    <td>-5</td>
+                </tr>
+                <tr>
+                    <td>Team 6</td>
+                    <td>4</td>
+                    <td>8</td>
+                    <td>12</td>
+                    <td>-10</td>
+                </tr>
+                <tr>
+                    <td>Team 7</td>
+                    <td>3</td>
+                    <td>9</td>
+                    <td>9</td>
+                    <td>-15</td>
+                </tr>
+                <tr>
+                    <td>Team 8</td>
+                    <td>2</td>
+                    <td>10</td>
+                    <td>6</td>
+                    <td>-20</td>
+                </tr>
+                <tr>
+                    <td>Team 9</td>
+                    <td>1</td>
+                    <td>11</td>
+                    <td>3</td>
+                    <td>-25</td>
+                </tr>
+                <tr>
+                    <td>Team 10</td>
+                    <td>0</td>
+                    <td>12</td>
+                    <td>0</td>
+                    <td>-30</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
